@@ -1,0 +1,22 @@
+POST http://localhost:4001/api/auth/register
+Content-Type: application/json
+
+{
+    "name": "Carlos",
+    "email": "carlosdcampos2.04@gmail.com",
+    "password": "HolaContraseña",
+    "boba": "inmosa"
+}
+
+#####
+POST http://localhost:4001/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "carlosdcampos.04@gmail.com",
+    "password": "HolaContraseña"   
+}
+
+####
+GET http://localhost:4001/api
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzEsIm5hbWUiOiJDYXJsb3MiLCJlbWFpbCI6ImNhcmxvc2RjYW1wb3MuMDRAZ21haWwuY29tIiwibG9jYXRlIjoiQnVlbm9zIEFpcmVzIiwiY2FsaWZpY2F0aW9uIjowLCJpYXQiOjE2NDk3OTMxNDIsImV4cCI6MTY1MTA4OTE0Mn0.gE6zoe84zjbyQsDP37Lumdka6UtlUXti5u2PuZ33uqw

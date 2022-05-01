@@ -1,0 +1,10 @@
+{
+    "javascript.suggest.includeAutomaticOptionalChainCompletions": true,
+    "-js/ts.implicitProjectConfig.checkJs": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript"
+    ]
+}
